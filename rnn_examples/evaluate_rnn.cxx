@@ -81,8 +81,11 @@ int main(int argc, char** argv) {
     bool use_ina219 = argument_exists(arguments, "--ina219");
     string ina219_device = "/dev/i2c-1";
     get_argument(arguments, "--ina219_device", false, ina219_device);
+    string ina219_addr_str = "0x40";
+    get_argument(arguments, "--ina219_address", false, ina219_addr_str);
+    uint8_t ina219_addr = (uint8_t) std::stoul(ina219_addr_str, nullptr, 16);
 
-    INA219 ina219;
+    INA219 ina219(ina219_addr);
     INA219Sampler ina219_sampler;
     bool ina219_active = false;
     if (use_ina219) {

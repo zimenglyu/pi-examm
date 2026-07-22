@@ -39,7 +39,6 @@ struct INA219Stats {
 
 class INA219 {
    public:
-    static constexpr uint8_t INA219_ADDR = 0x40;
     static constexpr uint8_t REG_CONFIG = 0x00;
     static constexpr uint8_t REG_SHUNT_V = 0x01;
     static constexpr uint8_t REG_BUS_V = 0x02;
@@ -50,7 +49,7 @@ class INA219 {
     static constexpr double CURRENT_LSB_MA = 0.1;
     static constexpr double POWER_LSB_MW = CURRENT_LSB_MA * 20.0;
 
-    INA219() : i2c_fd_(-1) {}
+    explicit INA219(uint8_t addr = 0x40) : i2c_fd_(-1), addr_(addr) {}
 
     ~INA219() { close_device(); }
 
@@ -60,7 +59,7 @@ class INA219 {
         if (i2c_fd_ < 0) {
             return false;
         }
-        if (ioctl(i2c_fd_, I2C_SLAVE, INA219_ADDR) < 0) {
+        if (ioctl(i2c_fd_, I2C_SLAVE, addr_) < 0) {
             close_device();
             return false;
         }
@@ -129,6 +128,7 @@ class INA219 {
 
    private:
     int i2c_fd_;
+    uint8_t addr_;
 
 #ifdef __linux__
     bool write_reg16(uint8_t reg, uint16_t value) {

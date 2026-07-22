@@ -21,6 +21,8 @@ do
     --testing_filenames ../datasets/2018_coal/burner_11.csv \
     --time_offset 1 \
     --ina219 \
+    --ina219_device /dev/i2c-2 \
+    --ina219_address 0x4a \
     --genome_file $genome_name \
     --input_parameter_names $INPUT_PARAMETERS \
     --output_parameter_names $OUTPUT_PARAMETERS \
