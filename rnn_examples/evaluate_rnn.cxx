@@ -142,7 +142,6 @@ int main(int argc, char** argv) {
             power_stats.power_mw_avg, power_stats.power_mw_min, power_stats.power_mw_max);
         Log::info("  Energy:       %.3f mJ\n", power_stats.energy_mj);
         if (inference_seconds > 0.0) {
-            Log::info("  Avg power per data point: %.3f mW\n", power_stats.power_mw_avg);
             Log::info("  Energy per data point: %.6f mJ\n",
                 (total_rows > 0) ? (power_stats.energy_mj / total_rows) : 0.0);
         }
