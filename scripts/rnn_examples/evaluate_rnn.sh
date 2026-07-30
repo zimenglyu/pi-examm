@@ -8,7 +8,7 @@ INPUT_PARAMETERS="Conditioner_Inlet_Temp Conditioner_Outlet_Temp Coal_Feeder_Rat
 OUTPUT_PARAMETERS="Main_Flm_Int" 
 
 exp_name="../test_output/coal_mpi"
-for i in 0 1 2 3 4 5 6 7 8 9 
+for i in 0 
 do
 
     genome_name="../scripts/rnn_examples/demo_new/global_best_genome_${i}.bin"
