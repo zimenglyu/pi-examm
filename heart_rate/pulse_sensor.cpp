@@ -30,6 +30,7 @@
 #include <cstdio>
 #include <cstdint>
 #include <cstring>
+#include <cmath>
 #include <chrono>
 #include <thread>
 #include <fcntl.h>
@@ -127,6 +128,17 @@ int main() {
     int    ibiCount = 0;   // how many valid intervals collected so far (caps at AVG_WINDOW)
     int    ibiIndex = 0;   // next slot to write
 
+    // Print every other beat instead of every single one, so output isn't so busy.
+    const int PRINT_EVERY_N_BEATS = 2;
+    int beatsSinceLastPrint = 0;
+
+    // If the avg BPM jumps by more than this from the last printed reading, the
+    // sensor likely just got bumped/repositioned rather than the heart rate
+    // actually changing that fast — print "Detecting..." instead of a bogus
+    // number. Kept loose since the sensor itself is naturally noisy/sensitive.
+    const double MAX_BPM_JUMP = 30.0;
+    double lastPrintedBpm = -1.0;
+
     printf("Starting pulse read. Place finger/earlobe on sensor, press firmly, avoid ambient light.\n");
     printf("Uncomment the calibration print line below if you need to check raw/filtered values.\n\n");
 
@@ -156,8 +168,19 @@ int main() {
                 double avgIbi = sum / ibiCount;
                 double bpm = 60000.0 / avgIbi;
 
-                printf("Beat! Interval: %.0f ms  Instant BPM: %.1f  Avg(%d) BPM: %.1f\n",
-                       sinceLastBeatMs, 60000.0 / sinceLastBeatMs, ibiCount, bpm);
+                if (++beatsSinceLastPrint >= PRINT_EVERY_N_BEATS) {
+                    beatsSinceLastPrint = 0;
+
+                    if (lastPrintedBpm >= 0 && std::fabs(bpm - lastPrintedBpm) > MAX_BPM_JUMP) {
+                        printf("Detecting...\n");
+                    } else {
+                        int instantBpm = (int)std::lround(60000.0 / sinceLastBeatMs);
+                        int avgBpm = (int)std::lround(bpm);
+                        printf("Beat! Interval: %.0f ms  Instant BPM: %d  Avg(%d) BPM: %d\n",
+                               sinceLastBeatMs, instantBpm, ibiCount, avgBpm);
+                    }
+                    lastPrintedBpm = bpm;
+                }
             }
 
             lastBeatTime = now;
