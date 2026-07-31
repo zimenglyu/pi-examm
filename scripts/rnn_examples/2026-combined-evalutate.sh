@@ -15,7 +15,7 @@ if [ ! -d "$DATA_DIR" ]; then
 fi
 
 # ---- collect the pooled test file list (ALL stocks) ------------------------
-TEST_FILES=$(ls "$DATA_DIR"/*_val.csv 2>/dev/null | tr '\n' ' ')
+TEST_FILES=$(ls "$DATA_DIR"/*_test.csv 2>/dev/null | tr '\n' ' ')
 N_TEST=$(echo $TEST_FILES | wc -w | tr -d ' ')
 
 if [ "$N_TEST" -lt 1 ]; then
