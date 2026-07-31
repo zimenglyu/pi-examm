@@ -1,0 +1,25 @@
+[INFO    main                 ] 	../datasets/2018_coal/burner_11.csv
+[INFO    main                 ] read time series '../datasets/2018_coal/burner_11.csv' with number rows: 14401
+[WARNING main                 ] normalizing series Conditioner_Inlet_Temp, value[1903] 0.997096 was greater than max for normalization: 0.952610
+[WARNING main                 ] normalizing series Conditioner_Inlet_Temp, value[2552] 0.998540 was greater than max for normalization: 0.952610
+[WARNING main                 ] normalizing series Conditioner_Inlet_Temp, value[3212] 1.000000 was greater than max for normalization: 0.952610
+[WARNING main                 ] normalizing series Conditioner_Inlet_Temp, value[11455] 0.997096 was greater than max for normalization: 0.952610
+[INFO    main                 ] normalized type: min_max 
+[INFO    main                 ] loaded 14400 rows for testing.
+[INFO    main                 ] Parameter count: 93
+[INFO    main                 ] INA219 power monitor enabled on /dev/i2c-1
+[INFO    main                 ] MSE: 0.000474
+[INFO    main                 ] MAE: 0.015893
+[INFO    main                 ] Inference time (entire dataset): 0.683 seconds (683.0 ms)
+[INFO    main                 ]   Per data point: 0.047 ms (47.4 μs)
+[INFO    main                 ]   Throughput: 21083.0 data points/second
+[INFO    main                 ] INA219 power (during inference, 7 samples):
+[INFO    main                 ]   Bus voltage:  avg 4.978 V  (min 4.956, max 4.988)
+[INFO    main                 ]   Shunt voltage: avg 38.566 mV
+[INFO    main                 ]   Current:      avg 382.243 mA  (min 364.800, max 447.700)
+[INFO    main                 ]   Power:        avg 1900.571 mW  (min 1816.000, max 2208.000)
+[INFO    main                 ]   Energy:       1330.400 mJ
+[INFO    main                 ]   Avg power per data point: 1900.571 mW
+[INFO    main                 ]   Energy per data point: 0.092389 mJ
+[INFO    main                 ] Model latency (entire dataset): 1.964 seconds (1964.2 ms)
+[INFO    main                 ]   Per data point: 0.136 ms

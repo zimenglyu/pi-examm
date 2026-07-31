@@ -1,0 +1,666 @@
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/AKAM_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/AKAM_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/ATO_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/ATO_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/BXP_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/BXP_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/CAG_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/CAG_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/CHRW_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/CHRW_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/CINF_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/CINF_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/COO_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/COO_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/CPB_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/CPB_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/CPT_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/CPT_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/DECK_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/DECK_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/DPZ_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/DPZ_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/DVA_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/DVA_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/ED_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/ED_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/EIX_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/EIX_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/EMN_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/EMN_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/ESS_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/ESS_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/ETR_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/ETR_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/EXPD_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/EXPD_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/EXR_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/EXR_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/FDS_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/FDS_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/FFIV_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/FFIV_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/FRT_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/FRT_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/HBAN_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/HBAN_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/HOLX_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/HOLX_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/HSIC_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/HSIC_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/IEX_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/IEX_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/IRM_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/IRM_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/IVZ_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/IVZ_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/JBHT_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/JBHT_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/JKHY_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/JKHY_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/KIM_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/KIM_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/KMB_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/KMB_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/KMX_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/KMX_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/LH_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/LH_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/LNT_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/LNT_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/MHK_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/MHK_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/NDSN_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/NDSN_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/NTRS_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/NTRS_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/NVR_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/NVR_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/PKG_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/PKG_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/PODD_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/PODD_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/REG_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/REG_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/RHI_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/RHI_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/STLD_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/STLD_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/TECH_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/TECH_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/TFX_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/TFX_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/TRMB_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/TRMB_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/TRV_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/TRV_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/UHS_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/UHS_test.csv' with number rows: 501
+[INFO    main                 ] 	../datasets/stock/cohort_2020_aligned/WRB_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2020_aligned/WRB_test.csv' with number rows: 501
+[INFO    main                 ] normalized type: avg_std_dev 
+[INFO    main                 ] loaded 25000 total rows across 50 test files.
+[INFO    main                 ] Parameter count: 53
+[INFO    main                 ] INA219 power monitor enabled on /dev/i2c-1
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 1/50] AKAM_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00119791
+[INFO    main                 ]   MAE:        0.02393135
+[INFO    main                 ]   Inference:  0.016 s (15.6 ms)  |  per-point: 0.031 ms (31.1 us)  |  throughput: 32152.3 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.640 V  (min 4.640, max 4.640)
+[INFO    main                 ]     Current: avg 432.500 mA  (min 432.500, max 432.500)
+[INFO    main                 ]     Power:   avg 2006.000 mW  (min 2006.000, max 2006.000)
+[INFO    main                 ]     Energy:  200.600000 mJ  |  per-point: 0.401200 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 2/50] ATO_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00071381
+[INFO    main                 ]   MAE:        0.02004004
+[INFO    main                 ]   Inference:  0.013 s (13.4 ms)  |  per-point: 0.027 ms (26.7 us)  |  throughput: 37419.5 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.644 V  (min 4.644, max 4.644)
+[INFO    main                 ]     Current: avg 421.500 mA  (min 421.500, max 421.500)
+[INFO    main                 ]     Power:   avg 1956.000 mW  (min 1956.000, max 1956.000)
+[INFO    main                 ]     Energy:  195.600000 mJ  |  per-point: 0.391200 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 3/50] BXP_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00220234
+[INFO    main                 ]   MAE:        0.03527389
+[INFO    main                 ]   Inference:  0.013 s (12.7 ms)  |  per-point: 0.025 ms (25.5 us)  |  throughput: 39252.6 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.648 V  (min 4.648, max 4.648)
+[INFO    main                 ]     Current: avg 445.900 mA  (min 445.900, max 445.900)
+[INFO    main                 ]     Power:   avg 2064.000 mW  (min 2064.000, max 2064.000)
+[INFO    main                 ]     Energy:  206.400000 mJ  |  per-point: 0.412800 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 4/50] CAG_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00076502
+[INFO    main                 ]   MAE:        0.01966320
+[INFO    main                 ]   Inference:  0.013 s (13.4 ms)  |  per-point: 0.027 ms (26.8 us)  |  throughput: 37263.4 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.764 V  (min 4.764, max 4.764)
+[INFO    main                 ]     Current: avg 427.900 mA  (min 427.900, max 427.900)
+[INFO    main                 ]     Power:   avg 1986.000 mW  (min 1986.000, max 1986.000)
+[INFO    main                 ]     Energy:  198.600000 mJ  |  per-point: 0.397200 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 5/50] CHRW_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00145082
+[INFO    main                 ]   MAE:        0.02686532
+[INFO    main                 ]   Inference:  0.014 s (13.7 ms)  |  per-point: 0.027 ms (27.5 us)  |  throughput: 36406.0 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.688 V  (min 4.688, max 4.688)
+[INFO    main                 ]     Current: avg 421.800 mA  (min 421.800, max 421.800)
+[INFO    main                 ]     Power:   avg 1956.000 mW  (min 1956.000, max 1956.000)
+[INFO    main                 ]     Energy:  195.600000 mJ  |  per-point: 0.391200 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 6/50] CINF_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00138395
+[INFO    main                 ]   MAE:        0.02623677
+[INFO    main                 ]   Inference:  0.015 s (14.9 ms)  |  per-point: 0.030 ms (29.8 us)  |  throughput: 33512.1 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.720 V  (min 4.720, max 4.720)
+[INFO    main                 ]     Current: avg 433.700 mA  (min 433.700, max 433.700)
+[INFO    main                 ]     Power:   avg 2012.000 mW  (min 2012.000, max 2012.000)
+[INFO    main                 ]     Energy:  201.200000 mJ  |  per-point: 0.402400 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 7/50] COO_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00138375
+[INFO    main                 ]   MAE:        0.02756925
+[INFO    main                 ]   Inference:  0.013 s (12.9 ms)  |  per-point: 0.026 ms (25.8 us)  |  throughput: 38835.0 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.744 V  (min 4.744, max 4.744)
+[INFO    main                 ]     Current: avg 442.700 mA  (min 442.700, max 442.700)
+[INFO    main                 ]     Power:   avg 2054.000 mW  (min 2054.000, max 2054.000)
+[INFO    main                 ]     Energy:  205.400000 mJ  |  per-point: 0.410800 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 8/50] CPB_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00082756
+[INFO    main                 ]   MAE:        0.02035979
+[INFO    main                 ]   Inference:  0.014 s (14.3 ms)  |  per-point: 0.029 ms (28.5 us)  |  throughput: 35082.8 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.712 V  (min 4.712, max 4.712)
+[INFO    main                 ]     Current: avg 416.800 mA  (min 416.800, max 416.800)
+[INFO    main                 ]     Power:   avg 1936.000 mW  (min 1936.000, max 1936.000)
+[INFO    main                 ]     Energy:  193.600000 mJ  |  per-point: 0.387200 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 9/50] CPT_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00105755
+[INFO    main                 ]   MAE:        0.02480064
+[INFO    main                 ]   Inference:  0.013 s (12.6 ms)  |  per-point: 0.025 ms (25.2 us)  |  throughput: 39654.2 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.736 V  (min 4.736, max 4.736)
+[INFO    main                 ]     Current: avg 422.500 mA  (min 422.500, max 422.500)
+[INFO    main                 ]     Power:   avg 1966.000 mW  (min 1966.000, max 1966.000)
+[INFO    main                 ]     Energy:  196.600000 mJ  |  per-point: 0.393200 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 10/50] DECK_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00274520
+[INFO    main                 ]   MAE:        0.03755280
+[INFO    main                 ]   Inference:  0.014 s (13.8 ms)  |  per-point: 0.028 ms (27.7 us)  |  throughput: 36161.1 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.624 V  (min 4.624, max 4.624)
+[INFO    main                 ]     Current: avg 446.000 mA  (min 446.000, max 446.000)
+[INFO    main                 ]     Power:   avg 2070.000 mW  (min 2070.000, max 2070.000)
+[INFO    main                 ]     Energy:  207.000000 mJ  |  per-point: 0.414000 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 11/50] DPZ_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00167231
+[INFO    main                 ]   MAE:        0.02944821
+[INFO    main                 ]   Inference:  0.014 s (14.1 ms)  |  per-point: 0.028 ms (28.2 us)  |  throughput: 35503.8 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.716 V  (min 4.716, max 4.716)
+[INFO    main                 ]     Current: avg 428.400 mA  (min 428.400, max 428.400)
+[INFO    main                 ]     Power:   avg 1990.000 mW  (min 1990.000, max 1990.000)
+[INFO    main                 ]     Energy:  199.000000 mJ  |  per-point: 0.398000 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 12/50] DVA_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00261219
+[INFO    main                 ]   MAE:        0.03215839
+[INFO    main                 ]   Inference:  0.014 s (13.7 ms)  |  per-point: 0.027 ms (27.4 us)  |  throughput: 36531.0 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.804 V  (min 4.804, max 4.804)
+[INFO    main                 ]     Current: avg 427.100 mA  (min 427.100, max 427.100)
+[INFO    main                 ]     Power:   avg 1980.000 mW  (min 1980.000, max 1980.000)
+[INFO    main                 ]     Energy:  198.000000 mJ  |  per-point: 0.396000 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 13/50] ED_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00064163
+[INFO    main                 ]   MAE:        0.01940308
+[INFO    main                 ]   Inference:  0.014 s (14.3 ms)  |  per-point: 0.029 ms (28.5 us)  |  throughput: 35060.7 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.712 V  (min 4.712, max 4.712)
+[INFO    main                 ]     Current: avg 432.400 mA  (min 432.400, max 432.400)
+[INFO    main                 ]     Power:   avg 2006.000 mW  (min 2006.000, max 2006.000)
+[INFO    main                 ]     Energy:  200.600000 mJ  |  per-point: 0.401200 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 14/50] EIX_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00099031
+[INFO    main                 ]   MAE:        0.02376175
+[INFO    main                 ]   Inference:  0.014 s (14.3 ms)  |  per-point: 0.029 ms (28.5 us)  |  throughput: 35065.6 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.752 V  (min 4.752, max 4.752)
+[INFO    main                 ]     Current: avg 431.500 mA  (min 431.500, max 431.500)
+[INFO    main                 ]     Power:   avg 2006.000 mW  (min 2006.000, max 2006.000)
+[INFO    main                 ]     Energy:  200.600000 mJ  |  per-point: 0.401200 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 15/50] EMN_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00160378
+[INFO    main                 ]   MAE:        0.02956044
+[INFO    main                 ]   Inference:  0.014 s (14.4 ms)  |  per-point: 0.029 ms (28.7 us)  |  throughput: 34811.7 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.620 V  (min 4.620, max 4.620)
+[INFO    main                 ]     Current: avg 459.400 mA  (min 459.400, max 459.400)
+[INFO    main                 ]     Power:   avg 2104.000 mW  (min 2104.000, max 2104.000)
+[INFO    main                 ]     Energy:  210.400000 mJ  |  per-point: 0.420800 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 16/50] ESS_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00112078
+[INFO    main                 ]   MAE:        0.02563525
+[INFO    main                 ]   Inference:  0.014 s (14.5 ms)  |  per-point: 0.029 ms (28.9 us)  |  throughput: 34587.7 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.672 V  (min 4.672, max 4.672)
+[INFO    main                 ]     Current: avg 426.200 mA  (min 426.200, max 426.200)
+[INFO    main                 ]     Power:   avg 1976.000 mW  (min 1976.000, max 1976.000)
+[INFO    main                 ]     Energy:  197.600000 mJ  |  per-point: 0.395200 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 17/50] ETR_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00083554
+[INFO    main                 ]   MAE:        0.02167430
+[INFO    main                 ]   Inference:  0.014 s (14.2 ms)  |  per-point: 0.028 ms (28.3 us)  |  throughput: 35300.8 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.784 V  (min 4.784, max 4.784)
+[INFO    main                 ]     Current: avg 455.700 mA  (min 455.700, max 455.700)
+[INFO    main                 ]     Power:   avg 2104.000 mW  (min 2104.000, max 2104.000)
+[INFO    main                 ]     Energy:  210.400000 mJ  |  per-point: 0.420800 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 18/50] EXPD_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00122833
+[INFO    main                 ]   MAE:        0.02521488
+[INFO    main                 ]   Inference:  0.015 s (15.0 ms)  |  per-point: 0.030 ms (30.0 us)  |  throughput: 33308.9 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.712 V  (min 4.712, max 4.712)
+[INFO    main                 ]     Current: avg 458.900 mA  (min 458.900, max 458.900)
+[INFO    main                 ]     Power:   avg 2110.000 mW  (min 2110.000, max 2110.000)
+[INFO    main                 ]     Energy:  211.000000 mJ  |  per-point: 0.422000 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 19/50] EXR_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00174400
+[INFO    main                 ]   MAE:        0.02937371
+[INFO    main                 ]   Inference:  0.015 s (15.4 ms)  |  per-point: 0.031 ms (30.8 us)  |  throughput: 32501.3 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.548 V  (min 4.548, max 4.548)
+[INFO    main                 ]     Current: avg 557.100 mA  (min 557.100, max 557.100)
+[INFO    main                 ]     Power:   avg 2526.000 mW  (min 2526.000, max 2526.000)
+[INFO    main                 ]     Energy:  252.600000 mJ  |  per-point: 0.505200 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 20/50] FDS_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00104483
+[INFO    main                 ]   MAE:        0.02368682
+[INFO    main                 ]   Inference:  0.016 s (15.7 ms)  |  per-point: 0.031 ms (31.4 us)  |  throughput: 31822.8 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.556 V  (min 4.556, max 4.556)
+[INFO    main                 ]     Current: avg 558.800 mA  (min 558.800, max 558.800)
+[INFO    main                 ]     Power:   avg 2526.000 mW  (min 2526.000, max 2526.000)
+[INFO    main                 ]     Energy:  252.600000 mJ  |  per-point: 0.505200 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 21/50] FFIV_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00150283
+[INFO    main                 ]   MAE:        0.02821817
+[INFO    main                 ]   Inference:  0.014 s (14.4 ms)  |  per-point: 0.029 ms (28.8 us)  |  throughput: 34729.5 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.660 V  (min 4.660, max 4.660)
+[INFO    main                 ]     Current: avg 449.900 mA  (min 449.900, max 449.900)
+[INFO    main                 ]     Power:   avg 2070.000 mW  (min 2070.000, max 2070.000)
+[INFO    main                 ]     Energy:  207.000000 mJ  |  per-point: 0.414000 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 22/50] FRT_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00113204
+[INFO    main                 ]   MAE:        0.02606936
+[INFO    main                 ]   Inference:  0.014 s (13.6 ms)  |  per-point: 0.027 ms (27.1 us)  |  throughput: 36846.0 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.700 V  (min 4.700, max 4.700)
+[INFO    main                 ]     Current: avg 422.100 mA  (min 422.100, max 422.100)
+[INFO    main                 ]     Power:   avg 1946.000 mW  (min 1946.000, max 1946.000)
+[INFO    main                 ]     Energy:  194.600000 mJ  |  per-point: 0.389200 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 23/50] HBAN_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00197270
+[INFO    main                 ]   MAE:        0.03173542
+[INFO    main                 ]   Inference:  0.013 s (12.7 ms)  |  per-point: 0.025 ms (25.4 us)  |  throughput: 39317.4 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.744 V  (min 4.744, max 4.744)
+[INFO    main                 ]     Current: avg 458.600 mA  (min 458.600, max 458.600)
+[INFO    main                 ]     Power:   avg 2110.000 mW  (min 2110.000, max 2110.000)
+[INFO    main                 ]     Energy:  211.000000 mJ  |  per-point: 0.422000 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 24/50] HOLX_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00090305
+[INFO    main                 ]   MAE:        0.02222062
+[INFO    main                 ]   Inference:  0.021 s (20.7 ms)  |  per-point: 0.041 ms (41.5 us)  |  throughput: 24101.0 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.540 V  (min 4.540, max 4.540)
+[INFO    main                 ]     Current: avg 624.600 mA  (min 624.600, max 624.600)
+[INFO    main                 ]     Power:   avg 2796.000 mW  (min 2796.000, max 2796.000)
+[INFO    main                 ]     Energy:  279.600000 mJ  |  per-point: 0.559200 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 25/50] HSIC_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00095565
+[INFO    main                 ]   MAE:        0.02285943
+[INFO    main                 ]   Inference:  0.012 s (11.7 ms)  |  per-point: 0.023 ms (23.4 us)  |  throughput: 42749.7 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.600 V  (min 4.600, max 4.600)
+[INFO    main                 ]     Current: avg 466.100 mA  (min 466.100, max 466.100)
+[INFO    main                 ]     Power:   avg 2144.000 mW  (min 2144.000, max 2144.000)
+[INFO    main                 ]     Energy:  214.400000 mJ  |  per-point: 0.428800 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 26/50] IEX_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00089212
+[INFO    main                 ]   MAE:        0.02301732
+[INFO    main                 ]   Inference:  0.012 s (12.1 ms)  |  per-point: 0.024 ms (24.1 us)  |  throughput: 41459.4 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.608 V  (min 4.608, max 4.608)
+[INFO    main                 ]     Current: avg 469.300 mA  (min 469.300, max 469.300)
+[INFO    main                 ]     Power:   avg 2152.000 mW  (min 2152.000, max 2152.000)
+[INFO    main                 ]     Energy:  215.200000 mJ  |  per-point: 0.430400 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 27/50] IRM_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00142303
+[INFO    main                 ]   MAE:        0.02763198
+[INFO    main                 ]   Inference:  0.012 s (11.7 ms)  |  per-point: 0.023 ms (23.5 us)  |  throughput: 42607.6 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.692 V  (min 4.692, max 4.692)
+[INFO    main                 ]     Current: avg 463.200 mA  (min 463.200, max 463.200)
+[INFO    main                 ]     Power:   avg 2136.000 mW  (min 2136.000, max 2136.000)
+[INFO    main                 ]     Energy:  213.600000 mJ  |  per-point: 0.427200 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 28/50] IVZ_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00238372
+[INFO    main                 ]   MAE:        0.03661124
+[INFO    main                 ]   Inference:  0.020 s (19.6 ms)  |  per-point: 0.039 ms (39.2 us)  |  throughput: 25480.3 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.556 V  (min 4.556, max 4.556)
+[INFO    main                 ]     Current: avg 551.200 mA  (min 551.200, max 551.200)
+[INFO    main                 ]     Power:   avg 2504.000 mW  (min 2504.000, max 2504.000)
+[INFO    main                 ]     Energy:  250.400000 mJ  |  per-point: 0.500800 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 29/50] JBHT_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00148993
+[INFO    main                 ]   MAE:        0.02872688
+[INFO    main                 ]   Inference:  0.014 s (13.6 ms)  |  per-point: 0.027 ms (27.2 us)  |  throughput: 36756.6 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.600 V  (min 4.600, max 4.600)
+[INFO    main                 ]     Current: avg 460.500 mA  (min 460.500, max 460.500)
+[INFO    main                 ]     Power:   avg 2126.000 mW  (min 2126.000, max 2126.000)
+[INFO    main                 ]     Energy:  212.600000 mJ  |  per-point: 0.425200 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 30/50] JKHY_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00108569
+[INFO    main                 ]   MAE:        0.02313442
+[INFO    main                 ]   Inference:  0.013 s (12.7 ms)  |  per-point: 0.025 ms (25.4 us)  |  throughput: 39394.9 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.600 V  (min 4.600, max 4.600)
+[INFO    main                 ]     Current: avg 476.900 mA  (min 476.900, max 476.900)
+[INFO    main                 ]     Power:   avg 2198.000 mW  (min 2198.000, max 2198.000)
+[INFO    main                 ]     Energy:  219.800000 mJ  |  per-point: 0.439600 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 31/50] KIM_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00139827
+[INFO    main                 ]   MAE:        0.02896788
+[INFO    main                 ]   Inference:  0.018 s (17.7 ms)  |  per-point: 0.035 ms (35.4 us)  |  throughput: 28267.8 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.532 V  (min 4.532, max 4.532)
+[INFO    main                 ]     Current: avg 576.000 mA  (min 576.000, max 576.000)
+[INFO    main                 ]     Power:   avg 2608.000 mW  (min 2608.000, max 2608.000)
+[INFO    main                 ]     Energy:  260.800000 mJ  |  per-point: 0.521600 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 32/50] KMB_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00057173
+[INFO    main                 ]   MAE:        0.01750114
+[INFO    main                 ]   Inference:  0.015 s (14.9 ms)  |  per-point: 0.030 ms (29.7 us)  |  throughput: 33636.1 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.568 V  (min 4.568, max 4.568)
+[INFO    main                 ]     Current: avg 529.200 mA  (min 529.200, max 529.200)
+[INFO    main                 ]     Power:   avg 2408.000 mW  (min 2408.000, max 2408.000)
+[INFO    main                 ]     Energy:  240.800000 mJ  |  per-point: 0.481600 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 33/50] KMX_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00357300
+[INFO    main                 ]   MAE:        0.04216173
+[INFO    main                 ]   Inference:  0.014 s (14.4 ms)  |  per-point: 0.029 ms (28.9 us)  |  throughput: 34642.8 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.748 V  (min 4.748, max 4.748)
+[INFO    main                 ]     Current: avg 456.500 mA  (min 456.500, max 456.500)
+[INFO    main                 ]     Power:   avg 2100.000 mW  (min 2100.000, max 2100.000)
+[INFO    main                 ]     Energy:  210.000000 mJ  |  per-point: 0.420000 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 34/50] LH_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00094864
+[INFO    main                 ]   MAE:        0.02267177
+[INFO    main                 ]   Inference:  0.014 s (14.1 ms)  |  per-point: 0.028 ms (28.2 us)  |  throughput: 35440.9 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.672 V  (min 4.672, max 4.672)
+[INFO    main                 ]     Current: avg 451.700 mA  (min 451.700, max 451.700)
+[INFO    main                 ]     Power:   avg 2084.000 mW  (min 2084.000, max 2084.000)
+[INFO    main                 ]     Energy:  208.400000 mJ  |  per-point: 0.416800 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 35/50] LNT_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00080260
+[INFO    main                 ]   MAE:        0.02170789
+[INFO    main                 ]   Inference:  0.016 s (16.4 ms)  |  per-point: 0.033 ms (32.8 us)  |  throughput: 30500.8 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.708 V  (min 4.708, max 4.708)
+[INFO    main                 ]     Current: avg 459.900 mA  (min 459.900, max 459.900)
+[INFO    main                 ]     Power:   avg 2126.000 mW  (min 2126.000, max 2126.000)
+[INFO    main                 ]     Energy:  212.600000 mJ  |  per-point: 0.425200 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 36/50] MHK_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00284828
+[INFO    main                 ]   MAE:        0.03943713
+[INFO    main                 ]   Inference:  0.014 s (14.1 ms)  |  per-point: 0.028 ms (28.2 us)  |  throughput: 35443.4 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.776 V  (min 4.776, max 4.776)
+[INFO    main                 ]     Current: avg 458.600 mA  (min 458.600, max 458.600)
+[INFO    main                 ]     Power:   avg 2120.000 mW  (min 2120.000, max 2120.000)
+[INFO    main                 ]     Energy:  212.000000 mJ  |  per-point: 0.424000 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 37/50] NDSN_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00106857
+[INFO    main                 ]   MAE:        0.02386623
+[INFO    main                 ]   Inference:  0.014 s (14.2 ms)  |  per-point: 0.028 ms (28.4 us)  |  throughput: 35253.5 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.708 V  (min 4.708, max 4.708)
+[INFO    main                 ]     Current: avg 442.000 mA  (min 442.000, max 442.000)
+[INFO    main                 ]     Power:   avg 2038.000 mW  (min 2038.000, max 2038.000)
+[INFO    main                 ]     Energy:  203.800000 mJ  |  per-point: 0.407600 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 38/50] NTRS_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00181951
+[INFO    main                 ]   MAE:        0.03056537
+[INFO    main                 ]   Inference:  0.014 s (14.3 ms)  |  per-point: 0.029 ms (28.6 us)  |  throughput: 34977.3 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.720 V  (min 4.720, max 4.720)
+[INFO    main                 ]     Current: avg 465.100 mA  (min 465.100, max 465.100)
+[INFO    main                 ]     Power:   avg 2150.000 mW  (min 2150.000, max 2150.000)
+[INFO    main                 ]     Energy:  215.000000 mJ  |  per-point: 0.430000 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 39/50] NVR_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00148924
+[INFO    main                 ]   MAE:        0.02849935
+[INFO    main                 ]   Inference:  0.015 s (15.3 ms)  |  per-point: 0.031 ms (30.6 us)  |  throughput: 32713.9 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.776 V  (min 4.776, max 4.776)
+[INFO    main                 ]     Current: avg 455.700 mA  (min 455.700, max 455.700)
+[INFO    main                 ]     Power:   avg 2104.000 mW  (min 2104.000, max 2104.000)
+[INFO    main                 ]     Energy:  210.400000 mJ  |  per-point: 0.420800 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 40/50] PKG_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00118377
+[INFO    main                 ]   MAE:        0.02431366
+[INFO    main                 ]   Inference:  0.014 s (14.5 ms)  |  per-point: 0.029 ms (28.9 us)  |  throughput: 34551.9 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.652 V  (min 4.652, max 4.652)
+[INFO    main                 ]     Current: avg 476.900 mA  (min 476.900, max 476.900)
+[INFO    main                 ]     Power:   avg 2206.000 mW  (min 2206.000, max 2206.000)
+[INFO    main                 ]     Energy:  220.600000 mJ  |  per-point: 0.441200 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 41/50] PODD_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00389670
+[INFO    main                 ]   MAE:        0.04308310
+[INFO    main                 ]   Inference:  0.014 s (14.1 ms)  |  per-point: 0.028 ms (28.1 us)  |  throughput: 35579.6 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.680 V  (min 4.680, max 4.680)
+[INFO    main                 ]     Current: avg 509.100 mA  (min 509.100, max 509.100)
+[INFO    main                 ]     Power:   avg 2324.000 mW  (min 2324.000, max 2324.000)
+[INFO    main                 ]     Energy:  232.400000 mJ  |  per-point: 0.464800 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 42/50] REG_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00114626
+[INFO    main                 ]   MAE:        0.02590309
+[INFO    main                 ]   Inference:  0.014 s (14.2 ms)  |  per-point: 0.028 ms (28.3 us)  |  throughput: 35305.7 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.660 V  (min 4.660, max 4.660)
+[INFO    main                 ]     Current: avg 450.300 mA  (min 450.300, max 450.300)
+[INFO    main                 ]     Power:   avg 2080.000 mW  (min 2080.000, max 2080.000)
+[INFO    main                 ]     Energy:  208.000000 mJ  |  per-point: 0.416000 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 43/50] RHI_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00160652
+[INFO    main                 ]   MAE:        0.03015013
+[INFO    main                 ]   Inference:  0.014 s (13.8 ms)  |  per-point: 0.028 ms (27.5 us)  |  throughput: 36308.2 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.700 V  (min 4.700, max 4.700)
+[INFO    main                 ]     Current: avg 431.500 mA  (min 431.500, max 431.500)
+[INFO    main                 ]     Power:   avg 1992.000 mW  (min 1992.000, max 1992.000)
+[INFO    main                 ]     Energy:  199.200000 mJ  |  per-point: 0.398400 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 44/50] STLD_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00274340
+[INFO    main                 ]   MAE:        0.03944034
+[INFO    main                 ]   Inference:  0.014 s (13.6 ms)  |  per-point: 0.027 ms (27.3 us)  |  throughput: 36665.0 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.720 V  (min 4.720, max 4.720)
+[INFO    main                 ]     Current: avg 450.400 mA  (min 450.400, max 450.400)
+[INFO    main                 ]     Power:   avg 2080.000 mW  (min 2080.000, max 2080.000)
+[INFO    main                 ]     Energy:  208.000000 mJ  |  per-point: 0.416000 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 45/50] TECH_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00223936
+[INFO    main                 ]   MAE:        0.03579204
+[INFO    main                 ]   Inference:  0.014 s (13.6 ms)  |  per-point: 0.027 ms (27.2 us)  |  throughput: 36721.5 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.688 V  (min 4.688, max 4.688)
+[INFO    main                 ]     Current: avg 438.800 mA  (min 438.800, max 438.800)
+[INFO    main                 ]     Power:   avg 2034.000 mW  (min 2034.000, max 2034.000)
+[INFO    main                 ]     Energy:  203.400000 mJ  |  per-point: 0.406800 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 46/50] TFX_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00169136
+[INFO    main                 ]   MAE:        0.03060963
+[INFO    main                 ]   Inference:  0.014 s (14.1 ms)  |  per-point: 0.028 ms (28.3 us)  |  throughput: 35340.7 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.720 V  (min 4.720, max 4.720)
+[INFO    main                 ]     Current: avg 394.300 mA  (min 394.300, max 394.300)
+[INFO    main                 ]     Power:   avg 1828.000 mW  (min 1828.000, max 1828.000)
+[INFO    main                 ]     Energy:  182.800000 mJ  |  per-point: 0.365600 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 47/50] TRMB_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00221784
+[INFO    main                 ]   MAE:        0.03587798
+[INFO    main                 ]   Inference:  0.014 s (13.9 ms)  |  per-point: 0.028 ms (27.9 us)  |  throughput: 35901.5 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.764 V  (min 4.764, max 4.764)
+[INFO    main                 ]     Current: avg 423.100 mA  (min 423.100, max 423.100)
+[INFO    main                 ]     Power:   avg 1966.000 mW  (min 1966.000, max 1966.000)
+[INFO    main                 ]     Energy:  196.600000 mJ  |  per-point: 0.393200 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 48/50] TRV_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00075050
+[INFO    main                 ]   MAE:        0.02060922
+[INFO    main                 ]   Inference:  0.014 s (13.9 ms)  |  per-point: 0.028 ms (27.9 us)  |  throughput: 35865.4 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.704 V  (min 4.704, max 4.704)
+[INFO    main                 ]     Current: avg 417.900 mA  (min 417.900, max 417.900)
+[INFO    main                 ]     Power:   avg 1940.000 mW  (min 1940.000, max 1940.000)
+[INFO    main                 ]     Energy:  194.000000 mJ  |  per-point: 0.388000 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 49/50] UHS_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00177420
+[INFO    main                 ]   MAE:        0.02924914
+[INFO    main                 ]   Inference:  0.014 s (14.1 ms)  |  per-point: 0.028 ms (28.2 us)  |  throughput: 35400.7 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.716 V  (min 4.716, max 4.716)
+[INFO    main                 ]     Current: avg 408.300 mA  (min 408.300, max 408.300)
+[INFO    main                 ]     Power:   avg 1888.000 mW  (min 1888.000, max 1888.000)
+[INFO    main                 ]     Energy:  188.800000 mJ  |  per-point: 0.377600 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 50/50] WRB_test.csv
+[INFO    main                 ]   Rows:       500
+[INFO    main                 ]   MSE:        0.00088378
+[INFO    main                 ]   MAE:        0.02219629
+[INFO    main                 ]   Inference:  0.014 s (13.8 ms)  |  per-point: 0.028 ms (27.5 us)  |  throughput: 36318.7 pts/s
+[INFO    main                 ]   INA219 (1 samples):
+[INFO    main                 ]     Voltage: avg 4.760 V  (min 4.760, max 4.760)
+[INFO    main                 ]     Current: avg 430.400 mA  (min 430.400, max 430.400)
+[INFO    main                 ]     Power:   avg 2002.000 mW  (min 2002.000, max 2002.000)
+[INFO    main                 ]     Energy:  200.200000 mJ  |  per-point: 0.400400 mJ
+[INFO    main                 ] ============================================================
+[INFO    main                 ] OVERALL AVERAGES across 50 files:
+[INFO    main                 ]   Avg MSE:        0.00151232
+[INFO    main                 ]   Avg MAE:        0.02770076
+[INFO    main                 ]   Avg inference:  0.014 s  |  avg per-point: 28.579 us  |  avg throughput: 35370.2 pts/s
+[INFO    main                 ]   Total inference (all files): 0.714 s
+[INFO    main                 ]   Avg power:   2111.880 mW  |  Avg current: 458.298 mA
+[INFO    main                 ]   Total energy (all files): 10559.400000 mJ
+[INFO    main                 ]   Avg energy per file:      211.188000 mJ
+[INFO    main                 ] ============================================================
+[INFO    main                 ] Model latency (entire dataset): 6.354 seconds (6354.4 ms)
+[INFO    main                 ]   Per data point: 0.254 ms
