@@ -20,6 +20,9 @@ struct INA219Reading {
     double shunt_voltage_mv;
     double current_ma;
     double power_mw;
+    // Wall-clock timestamp (microseconds since epoch) recorded at sample time.
+    // Used to compute actual inter-sample dt for energy integration.
+    int64_t timestamp_us;
 };
 
 struct INA219Stats {
@@ -229,9 +232,25 @@ class INA219Sampler {
         stats.current_ma_avg = current_ma_sum / n;
         stats.power_mw_avg = power_mw_sum / n;
 
-        // Energy (mJ) = sum(power_mw * dt_ms) / 1000
-        double dt_ms = sample_interval_us_ / 1000.0;
-        stats.energy_mj = (power_mw_sum * dt_ms) / 1000.0;
+        // Energy (mJ) = sum( P_i * actual_dt_i )
+        // Use real timestamps so energy is not tied to the assumed sample interval.
+        // For N samples: integrate between consecutive timestamps.
+        // If only 1 sample, fall back to sample_interval as the best available dt.
+        double energy_mj = 0.0;
+        if (readings_.size() >= 2) {
+            for (size_t k = 1; k < readings_.size(); k++) {
+                double dt_us = (double)(readings_[k].timestamp_us - readings_[k-1].timestamp_us);
+                double dt_s  = dt_us / 1000000.0;
+                // Average power over the interval (trapezoidal rule)
+                double p_avg_mw = (readings_[k].power_mw + readings_[k-1].power_mw) / 2.0;
+                energy_mj += p_avg_mw * dt_s; // mW * s = mJ
+            }
+        } else {
+            // Only 1 sample: best estimate is P * assumed_dt
+            double dt_s = sample_interval_us_ / 1000000.0;
+            energy_mj = readings_[0].power_mw * dt_s;
+        }
+        stats.energy_mj = energy_mj;
 
         return stats;
     }
@@ -248,6 +267,11 @@ class INA219Sampler {
         while (running_) {
             INA219Reading reading;
             if (sensor_->read_reading(reading)) {
+                // Record the wall-clock time of this reading.
+                auto now = std::chrono::steady_clock::now();
+                reading.timestamp_us = std::chrono::duration_cast<std::chrono::microseconds>(
+                    now.time_since_epoch()
+                ).count();
                 std::lock_guard<std::mutex> lock(readings_mutex_);
                 readings_.push_back(reading);
             }

@@ -1,6 +1,9 @@
+#include <cmath>
 #include <chrono>
 #include <condition_variable>
 using std::condition_variable;
+
+#include <fstream>
 
 #include <iomanip>
 using std::setw;
@@ -101,16 +104,43 @@ int main(int argc, char** argv) {
     // Each file is evaluated independently so we get file-level granularity.
     // -----------------------------------------------------------------------
 
+    // ----- Idle power baseline measurement ----------------------------------
+    // Measure the Pi's quiescent power draw with no inference running.
+    // We subtract this from per-file inference energy so the reported
+    // energy reflects only the cost of running the model.
+    double idle_power_mw = 0.0;
+    if (ina219_active) {
+        Log::info("Measuring idle power baseline for 2 s (1 ms sampling)...\n");
+        INA219Sampler idle_sampler;
+        idle_sampler.set_sample_interval_us(1000); // 1 ms — must match inference sampler
+        idle_sampler.start(&ina219);
+        std::this_thread::sleep_for(std::chrono::seconds(2));
+        idle_sampler.stop();
+        INA219Stats idle_stats = idle_sampler.get_stats();
+        if (idle_stats.sample_count > 0) {
+            idle_power_mw = idle_stats.power_mw_avg;
+            Log::info(
+                "  Idle baseline: %.3f mW  (avg over %d samples)\n",
+                idle_power_mw, idle_stats.sample_count
+            );
+        } else {
+            Log::warning("  No idle samples collected — baseline will be 0 mW\n");
+        }
+    }
+
     // Accumulators for computing overall averages across all files
     double sum_mse               = 0.0;
     double sum_mae               = 0.0;
     double sum_inference_seconds = 0.0;
-    double sum_throughput        = 0.0;
-    double sum_per_dp_us         = 0.0;
-    double sum_power_mw          = 0.0;
-    double sum_energy_mj         = 0.0;
+    double sum_gross_power_mw    = 0.0;  // total system power during inference
+    double sum_net_energy_mj     = 0.0;  // inference-only energy (idle subtracted)
+    double sum_gross_energy_mj   = 0.0;  // raw integrated energy
     double sum_current_ma        = 0.0;
-    int    files_with_power      = 0;
+    double sum_per_dp_us         = 0.0;
+    int    files_with_power      = 0;    // files where INA219 got ≥1 sample
+    int    files_with_net_energy = 0;    // files where net_energy >= 0 (valid subtraction)
+
+
 
     // Model latency clock: covers the full loop + write_predictions
     auto model_latency_start = std::chrono::high_resolution_clock::now();
@@ -127,28 +157,72 @@ int main(int argc, char** argv) {
                                 : 0;
 
         // --- per-file inference timing + INA219 sampling ---
+        // Run N_REPS forward passes inside one timed+INA219 window.
+        //   Window ≈ N_REPS × single-pass time (~19 ms × 100 ≈ 2 s).
+        //   At 1 ms sampling that gives ~2000 power readings — enough for
+        //   stable statistics. Divide time and energy by N_REPS afterward
+        //   to recover per-inference numbers.
+        //   Predictions from the LAST iteration are used for MSE/MAE
+        //   (the network is deterministic so every rep gives the same result).
+        static const int N_REPS = 100;
         INA219Sampler file_sampler;
+        file_sampler.set_sample_interval_us(1000); // 1 ms
         auto inf_start = std::chrono::high_resolution_clock::now();
         if (ina219_active) {
             file_sampler.start(&ina219);
         }
 
-        double file_mse = genome->get_mse(best_parameters, file_inputs, file_outputs);
-        double file_mae = genome->get_mae(best_parameters, file_inputs, file_outputs);
+        vector<vector<double>> file_preds;
+        for (int rep = 0; rep < N_REPS; rep++) {
+            file_preds = genome->get_predictions(best_parameters, file_inputs, file_outputs);
+        }
 
         auto inf_end = std::chrono::high_resolution_clock::now();
         if (ina219_active) {
             file_sampler.stop();
         }
 
+        // --- compute MSE and MAE from predictions (no additional forward pass) ---
+        // file_outputs[0] layout: [feature][time_step]
+        // file_preds[0]   layout: flat [t*n_outputs + out] interleaved
+        double file_mse = 0.0;
+        double file_mae = 0.0;
+        {
+            const vector<double>& preds      = file_preds[0];
+            const vector<vector<double>>& exp = file_outputs[0]; // [feature][t]
+            int32_t n_outputs = (int32_t) exp.size();
+            int32_t n_steps   = (n_outputs > 0) ? (int32_t) exp[0].size() : 0;
+            int32_t total     = n_outputs * n_steps;
+
+            if (total > 0 && (int32_t) preds.size() == total) {
+                double mse_sum = 0.0, mae_sum = 0.0;
+                for (int32_t t = 0; t < n_steps; t++) {
+                    for (int32_t o = 0; o < n_outputs; o++) {
+                        double diff = preds[t * n_outputs + o] - exp[o][t];
+                        mse_sum += diff * diff;
+                        mae_sum += std::fabs(diff);
+                    }
+                }
+                file_mse = mse_sum / total;
+                file_mae = mae_sum / total;
+            } else {
+                Log::warning(
+                    "MSE/MAE size mismatch for file %d: preds.size()=%zu expected %d "
+                    "(n_outputs=%d n_steps=%d). Check prediction layout assumption.\n",
+                    fi, preds.size(), total, n_outputs, n_steps
+                );
+            }
+        }
+
+        // Divide total wall-time by N_REPS to get per-inference latency
         auto   inf_duration    = std::chrono::duration_cast<std::chrono::microseconds>(inf_end - inf_start);
-        double file_inf_sec    = inf_duration.count() / 1000000.0;
+        double total_inf_sec   = inf_duration.count() / 1000000.0;
+        double file_inf_sec    = total_inf_sec / N_REPS;
         double file_inf_ms     = file_inf_sec * 1000.0;
-        double file_dp_us      = (file_rows > 0) ? (inf_duration.count() / (double) file_rows) : 0.0;
+        double file_dp_us      = (file_rows > 0) ? ((inf_duration.count() / (double) N_REPS) / file_rows) : 0.0;
         double file_dp_ms      = file_dp_us / 1000.0;
         double file_throughput = (file_rows > 0 && file_inf_sec > 0.0) ? (file_rows / file_inf_sec) : 0.0;
 
-        // Extract basename for readable output
         string fname     = testing_filenames[fi];
         size_t slash_pos = fname.find_last_of("/\\");
         string basename  = (slash_pos != string::npos) ? fname.substr(slash_pos + 1) : fname;
@@ -159,34 +233,93 @@ int main(int argc, char** argv) {
         Log::info("  MSE:        %.8lf\n", file_mse);
         Log::info("  MAE:        %.8lf\n", file_mae);
         Log::info(
-            "  Inference:  %.3f s (%.1f ms)  |  per-point: %.3f ms (%.1f us)  |  throughput: %.1f pts/s\n",
-            file_inf_sec, file_inf_ms, file_dp_ms, file_dp_us, file_throughput
+            "  Inference (%d reps, avg):  %.3f s (%.1f ms)  |  per-point: %.3f ms (%.1f us)  |  throughput: %.1f pts/s\n",
+            N_REPS, file_inf_sec, file_inf_ms, file_dp_ms, file_dp_us, file_throughput
         );
+
+        // Read CPU frequency to verify the governor stayed pinned during inference.
+        // On Linux: /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq (kHz)
+        {
+            std::ifstream freq_file("/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq");
+            if (freq_file.is_open()) {
+                int64_t freq_khz = 0;
+                freq_file >> freq_khz;
+                Log::info("  CPU freq:   %ld kHz (%.0f MHz)\n", (long) freq_khz, freq_khz / 1000.0);
+            } else {
+                Log::info("  CPU freq:   (scaling_cur_freq not readable on this OS)\n");
+            }
+        }
+
 
         if (ina219_active) {
             INA219Stats ps = file_sampler.get_stats();
             if (ps.sample_count > 0) {
-                Log::info("  INA219 (%d samples):\n", ps.sample_count);
-                Log::info(
-                    "    Voltage: avg %.3f V  (min %.3f, max %.3f)\n",
-                    ps.bus_voltage_v_avg, ps.bus_voltage_v_min, ps.bus_voltage_v_max
+                // Divide gross energy by N_REPS to get per-inference energy
+                double gross_energy_mj = ps.energy_mj / N_REPS;
+
+                // Idle contribution for one inference run
+                double idle_energy_mj = idle_power_mw * file_inf_sec; // mW * s = mJ
+
+                // Net energy: cost attributable to running the model
+                double net_energy_mj = gross_energy_mj - idle_energy_mj;
+                if (net_energy_mj < 0.0) {
+                    Log::warning(
+                        "  INA219: net energy is negative (%.6f mJ) for %s — "
+                        "idle baseline (%.3f mW) may be higher than inference power. "
+                        "Re-measure idle with the Pi under equivalent load.\n",
+                        net_energy_mj, basename.c_str(), idle_power_mw
+                    );
+                    // Keep the raw (negative) value in the log so the bug is visible;
+                    // clamp only for accumulator so totals don't go nonsensical.
+                    sum_gross_power_mw  += ps.power_mw_avg;
+                    sum_gross_energy_mj += gross_energy_mj;
+                    // do NOT accumulate net energy for this file
+                    sum_current_ma      += ps.current_ma_avg;
+                    files_with_power++;
+                    Log::info(
+                        "    Net energy (inference only):  %.6f mJ  (NEGATIVE — see warning above)\n",
+                        net_energy_mj
+                    );
+                    // skip remaining per-file INA219 log lines to avoid confusing output
+                } else {
+                    Log::info("  INA219 (%d samples @ 1 ms, over %d reps):\n", ps.sample_count, N_REPS);
+                    Log::info(
+                        "    Voltage: avg %.3f V  (min %.3f, max %.3f)\n",
+                        ps.bus_voltage_v_avg, ps.bus_voltage_v_min, ps.bus_voltage_v_max
+                    );
+                    Log::info(
+                        "    Current: avg %.3f mA  (min %.3f, max %.3f)\n",
+                        ps.current_ma_avg, ps.current_ma_min, ps.current_ma_max
+                    );
+                    Log::info(
+                        "    Power:   avg %.3f mW  (min %.3f, max %.3f)\n",
+                        ps.power_mw_avg, ps.power_mw_min, ps.power_mw_max
+                    );
+                    Log::info(
+                        "    Gross energy (integral P dt):  %.6f mJ\n", gross_energy_mj
+                    );
+                    Log::info(
+                        "    Idle contribution (%.3f mW x %.3f s): %.6f mJ\n",
+                        idle_power_mw, file_inf_sec, idle_energy_mj
+                    );
+                    Log::info(
+                        "    Net energy (inference only):  %.6f mJ  |  per-point: %.6f mJ\n",
+                        net_energy_mj, (file_rows > 0) ? (net_energy_mj / file_rows) : 0.0
+                    );
+
+                    sum_gross_power_mw  += ps.power_mw_avg;
+                    sum_gross_energy_mj += gross_energy_mj;
+                    sum_net_energy_mj   += net_energy_mj;
+                    sum_current_ma      += ps.current_ma_avg;
+                    files_with_power++;
+                    files_with_net_energy++;
+                } // end net_energy >= 0 branch
+
+            } else {
+                Log::warning(
+                    "  INA219: 0 samples collected for this file "
+                    "(inference too short for 1 ms interval?)\n"
                 );
-                Log::info(
-                    "    Current: avg %.3f mA  (min %.3f, max %.3f)\n",
-                    ps.current_ma_avg, ps.current_ma_min, ps.current_ma_max
-                );
-                Log::info(
-                    "    Power:   avg %.3f mW  (min %.3f, max %.3f)\n",
-                    ps.power_mw_avg, ps.power_mw_min, ps.power_mw_max
-                );
-                Log::info(
-                    "    Energy:  %.6f mJ  |  per-point: %.6f mJ\n",
-                    ps.energy_mj, (file_rows > 0) ? (ps.energy_mj / file_rows) : 0.0
-                );
-                sum_power_mw   += ps.power_mw_avg;
-                sum_energy_mj  += ps.energy_mj;
-                sum_current_ma += ps.current_ma_avg;
-                files_with_power++;
             }
         }
 
@@ -194,7 +327,6 @@ int main(int argc, char** argv) {
         sum_mse               += file_mse;
         sum_mae               += file_mae;
         sum_inference_seconds += file_inf_sec;
-        sum_throughput        += file_throughput;
         sum_per_dp_us         += file_dp_us;
     }
 
@@ -213,19 +345,38 @@ int main(int argc, char** argv) {
         Log::info("  Avg MSE:        %.8lf\n", sum_mse / n_files);
         Log::info("  Avg MAE:        %.8lf\n", sum_mae / n_files);
         Log::info(
-            "  Avg inference:  %.3f s  |  avg per-point: %.3f us  |  avg throughput: %.1f pts/s\n",
+            "  Avg inference:  %.3f s  |  avg per-point: %.3f us  |  combined throughput: %.1f pts/s\n",
             sum_inference_seconds / n_files,
             sum_per_dp_us / n_files,
-            sum_throughput / n_files
+            // Correct aggregate throughput: total data points / total inference time
+            // (not the mean of per-file rates, which is mathematically wrong)
+            (sum_inference_seconds > 0.0) ? (total_rows / sum_inference_seconds) : 0.0
         );
         Log::info("  Total inference (all files): %.3f s\n", sum_inference_seconds);
         if (ina219_active && files_with_power > 0) {
             Log::info(
-                "  Avg power:   %.3f mW  |  Avg current: %.3f mA\n",
-                sum_power_mw / files_with_power, sum_current_ma / files_with_power
+                "  Idle baseline:       %.3f mW\n", idle_power_mw
             );
-            Log::info("  Total energy (all files): %.6f mJ\n", sum_energy_mj);
-            Log::info("  Avg energy per file:      %.6f mJ\n", sum_energy_mj / files_with_power);
+            Log::info(
+                "  Avg gross power:     %.3f mW  |  Avg current: %.3f mA\n",
+                sum_gross_power_mw / files_with_power,
+                sum_current_ma / files_with_power
+            );
+            Log::info(
+                "  Total gross energy:  %.6f mJ  |  avg per file: %.6f mJ\n",
+                sum_gross_energy_mj, sum_gross_energy_mj / files_with_power
+            );
+            if (files_with_net_energy > 0) {
+                Log::info(
+                    "  Total net energy (idle subtracted):  %.6f mJ  |  avg per file: %.6f mJ  (%d/%d files)\n",
+                    sum_net_energy_mj, sum_net_energy_mj / files_with_net_energy,
+                    files_with_net_energy, files_with_power
+                );
+            } else {
+                Log::warning(
+                    "  Net energy: 0 valid files (all had negative net energy — check idle baseline)\n"
+                );
+            }
         }
     }
     Log::info("============================================================\n");
@@ -234,19 +385,19 @@ int main(int argc, char** argv) {
         ina219.close_device();
     }
 
-    // Model Latency (end-to-end: input ready -> all predictions written)
-    auto model_latency_duration =
+    // End-to-end pipeline time: from data-ready to all prediction CSVs written.
+    // This is NOT model latency — it includes write_predictions disk I/O.
+    auto pipeline_duration =
         std::chrono::duration_cast<std::chrono::microseconds>(model_latency_end - model_latency_start);
-    double model_latency_seconds = model_latency_duration.count() / 1000000.0;
-    double model_latency_ms      = model_latency_seconds * 1000.0;
-    double per_data_point_model_latency_ms =
-        (total_rows > 0) ? (model_latency_ms / total_rows) : 0.0;
+    double pipeline_seconds = pipeline_duration.count() / 1000000.0;
+    double pipeline_ms      = pipeline_seconds * 1000.0;
+    double per_dp_pipeline_ms = (total_rows > 0) ? (pipeline_ms / total_rows) : 0.0;
 
     Log::info(
-        "Model latency (entire dataset): %.3f seconds (%.1f ms)\n",
-        model_latency_seconds, model_latency_ms
+        "End-to-end pipeline time (all files + write_predictions): %.3f seconds (%.1f ms)\n",
+        pipeline_seconds, pipeline_ms
     );
-    Log::info("  Per data point: %.3f ms\n", per_data_point_model_latency_ms);
+    Log::info("  Per data point: %.3f ms\n", per_dp_pipeline_ms);
 
     if (Log::at_level(Log::DEBUG)) {
         int32_t length;
