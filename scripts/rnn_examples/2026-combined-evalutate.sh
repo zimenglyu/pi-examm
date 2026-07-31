@@ -25,16 +25,15 @@ fi
 
 echo "pooled evaluation over $N_TEST stocks from $DATA_DIR"
 
-exp_name="../test_output/2026_stock"
 for i in 1 2 3 4 5 6 7 8 9 10
 do
 
     genome_name="../scripts/rnn_examples/2026-stock-combined/cohort_${YEAR}/genome_${i}.bin"
     
-
-    out_dir="../test_output/coal_mpi/evaluation_results_new/$i"
-    mkdir -p $out_dir
-    echo "Evaluating RNN on coal dataset, results will be saved to: "$out_dir
+    exp_name="../test_output/2026_stock/${YEAR}/$i"
+    # out_dir="../test_output/coal_mpi/evaluation_results_new/$i"
+    mkdir -p $exp_name
+    echo "Evaluating RNN on coal dataset, results will be saved to: "$exp_name
 
     ./rnn_examples/evaluate_multiple_testing_file \
     --testing_filenames $TEST_FILES \
@@ -44,7 +43,7 @@ do
     --input_parameter_names RET VOL_CHANGE BA_SPREAD ILLIQUIDITY sprtrn TURNOVER \
     --output_parameter_names RET \
     --genome_filename $genome_name \
-    --output_directory $out_dir \
+    --output_directory $exp_name \
     --std_message_level INFO \
     --file_message_level INFO
     # Add --ina219 on Raspberry Pi to log voltage/current/power during inference
