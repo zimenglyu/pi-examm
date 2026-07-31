@@ -36,7 +36,7 @@ do
     mkdir -p $out_dir
     echo "Evaluating RNN on coal dataset, results will be saved to: "$out_dir
 
-    ./rnn_examples/evaluate_rnn \
+    ./rnn_examples/evaluate_multiple_testing_file \
     --testing_filenames $TEST_FILES \
     --time_offset 1 \
     --ina219 \
