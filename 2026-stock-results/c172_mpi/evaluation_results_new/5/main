@@ -1,2 +1,0 @@
-[INFO    main                 ] 	../datasets/2018_coal/burner_11.csv
-[ERROR   main                 ] ERROR! Could not get headers from the CSV file. File potentially empty!

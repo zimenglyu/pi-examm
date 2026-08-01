@@ -1,0 +1,819 @@
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/AKAM_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/AKAM_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/ATO_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/ATO_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/BXP_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/BXP_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/CAG_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/CAG_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/CHRW_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/CHRW_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/CINF_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/CINF_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/COO_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/COO_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/CPB_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/CPB_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/CPT_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/CPT_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/DECK_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/DECK_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/DPZ_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/DPZ_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/DVA_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/DVA_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/ED_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/ED_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/EIX_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/EIX_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/EMN_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/EMN_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/ESS_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/ESS_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/ETR_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/ETR_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/EXPD_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/EXPD_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/EXR_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/EXR_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/FDS_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/FDS_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/FFIV_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/FFIV_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/FRT_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/FRT_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/HBAN_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/HBAN_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/HOLX_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/HOLX_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/HSIC_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/HSIC_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/IEX_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/IEX_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/IRM_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/IRM_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/IVZ_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/IVZ_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/JBHT_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/JBHT_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/JKHY_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/JKHY_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/KIM_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/KIM_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/KMB_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/KMB_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/KMX_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/KMX_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/LH_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/LH_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/LNT_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/LNT_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/MHK_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/MHK_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/NDSN_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/NDSN_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/NTRS_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/NTRS_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/NVR_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/NVR_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/PKG_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/PKG_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/PODD_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/PODD_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/REG_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/REG_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/RHI_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/RHI_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/STLD_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/STLD_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/TECH_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/TECH_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/TFX_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/TFX_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/TRMB_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/TRMB_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/TRV_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/TRV_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/UHS_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/UHS_test.csv' with number rows: 250
+[INFO    main                 ] 	../datasets/stock/cohort_2021_aligned/WRB_test.csv
+[INFO    main                 ] read time series '../datasets/stock/cohort_2021_aligned/WRB_test.csv' with number rows: 250
+[INFO    main                 ] normalized type: avg_std_dev 
+[INFO    main                 ] loaded 12450 total rows across 50 test files.
+[INFO    main                 ] Parameter count: 43
+[INFO    main                 ] INA219 power monitor enabled on /dev/i2c-1
+[INFO    main                 ] Measuring idle power baseline for 2 s (1 ms sampling)...
+[INFO    main                 ]   Idle baseline: 1128.911 mW  (avg over 610 samples)
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 1/50] AKAM_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00091594
+[INFO    main                 ]   MAE:        0.01935877
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.5 ms)  |  per-point: 0.010 ms (9.9 us)  |  throughput: 101033.5 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (74 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.717 V  (min 4.584, max 4.744)
+[INFO    main                 ]     Current: avg 336.634 mA  (min 315.400, max 503.700)
+[INFO    main                 ]     Power:   avg 1587.892 mW  (min 1490.000, max 2336.000)
+[INFO    main                 ]     Gross energy (integral P dt):  3.893331 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.782236 mJ
+[INFO    main                 ]     Net energy (inference only):  1.111095 mJ  |  per-point: 0.004462 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 2/50] ATO_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00056421
+[INFO    main                 ]   MAE:        0.01816480
+[INFO    main                 ]   Inference (100 reps, avg):  0.003 s (2.5 ms)  |  per-point: 0.010 ms (10.0 us)  |  throughput: 99600.0 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (76 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.710 V  (min 4.604, max 4.736)
+[INFO    main                 ]     Current: avg 344.824 mA  (min 314.200, max 496.200)
+[INFO    main                 ]     Power:   avg 1618.289 mW  (min 1484.000, max 2278.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.027238 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.003 s): 2.822279 mJ
+[INFO    main                 ]     Net energy (inference only):  1.204959 mJ  |  per-point: 0.004839 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 3/50] BXP_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00294130
+[INFO    main                 ]   MAE:        0.04061874
+[INFO    main                 ]   Inference (100 reps, avg):  0.003 s (2.5 ms)  |  per-point: 0.010 ms (10.0 us)  |  throughput: 99535.1 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (73 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.713 V  (min 4.624, max 4.740)
+[INFO    main                 ]     Current: avg 345.488 mA  (min 316.000, max 479.300)
+[INFO    main                 ]     Power:   avg 1623.589 mW  (min 1494.000, max 2180.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.082762 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.003 s): 2.824119 mJ
+[INFO    main                 ]     Net energy (inference only):  1.258643 mJ  |  per-point: 0.005055 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 4/50] CAG_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00056239
+[INFO    main                 ]   MAE:        0.01786524
+[INFO    main                 ]   Inference (100 reps, avg):  0.003 s (2.5 ms)  |  per-point: 0.010 ms (10.0 us)  |  throughput: 99559.0 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (76 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.712 V  (min 4.632, max 4.740)
+[INFO    main                 ]     Current: avg 347.217 mA  (min 315.400, max 498.000)
+[INFO    main                 ]     Power:   avg 1630.053 mW  (min 1488.000, max 2268.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.058913 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.003 s): 2.823441 mJ
+[INFO    main                 ]     Net energy (inference only):  1.235471 mJ  |  per-point: 0.004962 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 5/50] CHRW_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00101029
+[INFO    main                 ]   MAE:        0.02324554
+[INFO    main                 ]   Inference (100 reps, avg):  0.003 s (2.5 ms)  |  per-point: 0.010 ms (10.1 us)  |  throughput: 98927.7 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (74 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.708 V  (min 4.568, max 4.740)
+[INFO    main                 ]     Current: avg 346.004 mA  (min 307.300, max 532.300)
+[INFO    main                 ]     Power:   avg 1630.730 mW  (min 1474.000, max 2428.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.141058 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.003 s): 2.841459 mJ
+[INFO    main                 ]     Net energy (inference only):  1.299600 mJ  |  per-point: 0.005219 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 6/50] CINF_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00109456
+[INFO    main                 ]   MAE:        0.02314734
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.5 ms)  |  per-point: 0.010 ms (10.0 us)  |  throughput: 99704.5 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (76 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.707 V  (min 4.596, max 4.736)
+[INFO    main                 ]     Current: avg 347.882 mA  (min 313.600, max 485.600)
+[INFO    main                 ]     Power:   avg 1633.447 mW  (min 1482.000, max 2234.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.066334 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.819321 mJ
+[INFO    main                 ]     Net energy (inference only):  1.247013 mJ  |  per-point: 0.005008 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 7/50] COO_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00084100
+[INFO    main                 ]   MAE:        0.02157453
+[INFO    main                 ]   Inference (100 reps, avg):  0.003 s (2.5 ms)  |  per-point: 0.010 ms (10.1 us)  |  throughput: 99249.8 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (73 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.713 V  (min 4.584, max 4.740)
+[INFO    main                 ]     Current: avg 341.321 mA  (min 316.400, max 530.100)
+[INFO    main                 ]     Power:   avg 1604.712 mW  (min 1494.000, max 2432.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.020111 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.003 s): 2.832236 mJ
+[INFO    main                 ]     Net energy (inference only):  1.187875 mJ  |  per-point: 0.004771 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 8/50] CPB_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00074896
+[INFO    main                 ]   MAE:        0.01904745
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.5 ms)  |  per-point: 0.010 ms (10.0 us)  |  throughput: 99668.6 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (76 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.709 V  (min 4.596, max 4.744)
+[INFO    main                 ]     Current: avg 348.379 mA  (min 314.600, max 480.000)
+[INFO    main                 ]     Power:   avg 1631.868 mW  (min 1484.000, max 2206.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.124574 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.820337 mJ
+[INFO    main                 ]     Net energy (inference only):  1.304237 mJ  |  per-point: 0.005238 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 9/50] CPT_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00093169
+[INFO    main                 ]   MAE:        0.02264121
+[INFO    main                 ]   Inference (100 reps, avg):  0.003 s (2.5 ms)  |  per-point: 0.010 ms (10.0 us)  |  throughput: 99590.4 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (76 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.707 V  (min 4.552, max 4.736)
+[INFO    main                 ]     Current: avg 347.189 mA  (min 297.900, max 495.200)
+[INFO    main                 ]     Power:   avg 1629.947 mW  (min 1428.000, max 2268.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.060927 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.003 s): 2.822550 mJ
+[INFO    main                 ]     Net energy (inference only):  1.238377 mJ  |  per-point: 0.004973 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 10/50] DECK_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00154173
+[INFO    main                 ]   MAE:        0.02551660
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.5 ms)  |  per-point: 0.010 ms (10.0 us)  |  throughput: 99702.9 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (74 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.711 V  (min 4.620, max 4.740)
+[INFO    main                 ]     Current: avg 344.228 mA  (min 315.000, max 453.000)
+[INFO    main                 ]     Power:   avg 1623.973 mW  (min 1488.000, max 2432.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.045841 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.819366 mJ
+[INFO    main                 ]     Net energy (inference only):  1.226475 mJ  |  per-point: 0.004926 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 11/50] DPZ_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00137457
+[INFO    main                 ]   MAE:        0.02511076
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.5 ms)  |  per-point: 0.010 ms (10.0 us)  |  throughput: 99772.4 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (76 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.707 V  (min 4.592, max 4.740)
+[INFO    main                 ]     Current: avg 345.405 mA  (min 318.600, max 464.100)
+[INFO    main                 ]     Power:   avg 1621.579 mW  (min 1500.000, max 2124.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.041186 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.817402 mJ
+[INFO    main                 ]     Net energy (inference only):  1.223784 mJ  |  per-point: 0.004915 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 12/50] DVA_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00208384
+[INFO    main                 ]   MAE:        0.03010824
+[INFO    main                 ]   Inference (100 reps, avg):  0.003 s (2.5 ms)  |  per-point: 0.010 ms (10.1 us)  |  throughput: 99018.2 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (73 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.709 V  (min 4.612, max 4.740)
+[INFO    main                 ]     Current: avg 343.411 mA  (min 233.100, max 522.700)
+[INFO    main                 ]     Power:   avg 1610.164 mW  (min 1118.000, max 2412.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.099088 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.003 s): 2.838862 mJ
+[INFO    main                 ]     Net energy (inference only):  1.260226 mJ  |  per-point: 0.005061 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 13/50] ED_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00051625
+[INFO    main                 ]   MAE:        0.01763178
+[INFO    main                 ]   Inference (100 reps, avg):  0.003 s (2.5 ms)  |  per-point: 0.010 ms (10.0 us)  |  throughput: 99580.5 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (75 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.706 V  (min 4.576, max 4.740)
+[INFO    main                 ]     Current: avg 348.708 mA  (min 312.000, max 499.200)
+[INFO    main                 ]     Power:   avg 1637.520 mW  (min 1472.000, max 2342.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.064446 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.003 s): 2.822832 mJ
+[INFO    main                 ]     Net energy (inference only):  1.241614 mJ  |  per-point: 0.004986 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 14/50] EIX_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00080315
+[INFO    main                 ]   MAE:        0.02207561
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.5 ms)  |  per-point: 0.010 ms (9.9 us)  |  throughput: 101076.5 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (74 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.718 V  (min 4.620, max 4.740)
+[INFO    main                 ]     Current: avg 334.674 mA  (min 316.000, max 456.400)
+[INFO    main                 ]     Power:   avg 1579.000 mW  (min 1490.000, max 2152.000)
+[INFO    main                 ]     Gross energy (integral P dt):  3.889105 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.781051 mJ
+[INFO    main                 ]     Net energy (inference only):  1.108054 mJ  |  per-point: 0.004450 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 15/50] EMN_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00125343
+[INFO    main                 ]   MAE:        0.02676757
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.5 ms)  |  per-point: 0.010 ms (10.0 us)  |  throughput: 100205.2 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (75 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.709 V  (min 4.620, max 4.736)
+[INFO    main                 ]     Current: avg 346.579 mA  (min 312.800, max 484.500)
+[INFO    main                 ]     Power:   avg 1626.507 mW  (min 1474.000, max 2238.000)
+[INFO    main                 ]     Gross energy (integral P dt):  3.994581 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.805232 mJ
+[INFO    main                 ]     Net energy (inference only):  1.189349 mJ  |  per-point: 0.004777 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 16/50] ESS_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00105642
+[INFO    main                 ]   MAE:        0.02449861
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.5 ms)  |  per-point: 0.010 ms (9.9 us)  |  throughput: 101000.3 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (73 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.717 V  (min 4.616, max 4.740)
+[INFO    main                 ]     Current: avg 336.097 mA  (min 316.300, max 449.600)
+[INFO    main                 ]     Power:   avg 1585.945 mW  (min 1494.000, max 2140.000)
+[INFO    main                 ]     Gross energy (integral P dt):  3.913107 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.783151 mJ
+[INFO    main                 ]     Net energy (inference only):  1.129957 mJ  |  per-point: 0.004538 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 17/50] ETR_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00070346
+[INFO    main                 ]   MAE:        0.01957799
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.5 ms)  |  per-point: 0.010 ms (9.9 us)  |  throughput: 101502.2 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (75 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.718 V  (min 4.612, max 4.736)
+[INFO    main                 ]     Current: avg 336.948 mA  (min 315.400, max 458.200)
+[INFO    main                 ]     Power:   avg 1584.587 mW  (min 1490.000, max 2130.000)
+[INFO    main                 ]     Gross energy (integral P dt):  3.856876 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.769389 mJ
+[INFO    main                 ]     Net energy (inference only):  1.087487 mJ  |  per-point: 0.004367 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 18/50] EXPD_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00081941
+[INFO    main                 ]   MAE:        0.02092733
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.5 ms)  |  per-point: 0.010 ms (9.9 us)  |  throughput: 101312.2 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (75 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.717 V  (min 4.604, max 4.756)
+[INFO    main                 ]     Current: avg 338.867 mA  (min 315.500, max 452.100)
+[INFO    main                 ]     Power:   avg 1595.067 mW  (min 1488.000, max 2098.000)
+[INFO    main                 ]     Gross energy (integral P dt):  3.891606 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.774582 mJ
+[INFO    main                 ]     Net energy (inference only):  1.117024 mJ  |  per-point: 0.004486 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 19/50] EXR_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00165613
+[INFO    main                 ]   MAE:        0.02790818
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.5 ms)  |  per-point: 0.010 ms (9.8 us)  |  throughput: 101615.6 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (74 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.720 V  (min 4.636, max 4.736)
+[INFO    main                 ]     Current: avg 335.469 mA  (min 232.800, max 482.400)
+[INFO    main                 ]     Power:   avg 1579.108 mW  (min 1118.000, max 2212.000)
+[INFO    main                 ]     Gross energy (integral P dt):  3.888224 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.766296 mJ
+[INFO    main                 ]     Net energy (inference only):  1.121928 mJ  |  per-point: 0.004506 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 20/50] FDS_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00066709
+[INFO    main                 ]   MAE:        0.01956421
+[INFO    main                 ]   Inference (100 reps, avg):  0.003 s (2.5 ms)  |  per-point: 0.010 ms (10.1 us)  |  throughput: 98814.2 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (75 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.703 V  (min 4.564, max 4.736)
+[INFO    main                 ]     Current: avg 354.735 mA  (min 313.900, max 478.200)
+[INFO    main                 ]     Power:   avg 1664.293 mW  (min 1482.000, max 2202.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.153758 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.003 s): 2.844721 mJ
+[INFO    main                 ]     Net energy (inference only):  1.309037 mJ  |  per-point: 0.005257 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 21/50] FFIV_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00072695
+[INFO    main                 ]   MAE:        0.02032412
+[INFO    main                 ]   Inference (100 reps, avg):  0.003 s (2.5 ms)  |  per-point: 0.010 ms (10.1 us)  |  throughput: 99189.8 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (74 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.688 V  (min 4.576, max 4.716)
+[INFO    main                 ]     Current: avg 369.755 mA  (min 343.000, max 478.100)
+[INFO    main                 ]     Power:   avg 1733.757 mW  (min 1612.000, max 2510.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.375006 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.003 s): 2.833952 mJ
+[INFO    main                 ]     Net energy (inference only):  1.541055 mJ  |  per-point: 0.006189 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 22/50] FRT_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00093172
+[INFO    main                 ]   MAE:        0.02321740
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.5 ms)  |  per-point: 0.010 ms (10.0 us)  |  throughput: 99760.8 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (76 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.687 V  (min 4.580, max 4.720)
+[INFO    main                 ]     Current: avg 372.191 mA  (min 288.100, max 499.200)
+[INFO    main                 ]     Power:   avg 1741.316 mW  (min 1376.000, max 2290.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.349620 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.817729 mJ
+[INFO    main                 ]     Net energy (inference only):  1.531891 mJ  |  per-point: 0.006152 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 23/50] HBAN_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00213104
+[INFO    main                 ]   MAE:        0.03192140
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.5 ms)  |  per-point: 0.010 ms (9.8 us)  |  throughput: 101559.7 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (74 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.699 V  (min 4.596, max 4.720)
+[INFO    main                 ]     Current: avg 360.992 mA  (min 317.000, max 469.900)
+[INFO    main                 ]     Power:   avg 1691.000 mW  (min 1510.000, max 2172.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.149478 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.767820 mJ
+[INFO    main                 ]     Net energy (inference only):  1.381658 mJ  |  per-point: 0.005549 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 24/50] HOLX_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00063699
+[INFO    main                 ]   MAE:        0.01844901
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.5 ms)  |  per-point: 0.010 ms (9.9 us)  |  throughput: 101102.8 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (75 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.692 V  (min 4.572, max 4.716)
+[INFO    main                 ]     Current: avg 366.013 mA  (min 342.800, max 504.700)
+[INFO    main                 ]     Power:   avg 1714.667 mW  (min 1608.000, max 2336.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.190993 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.780328 mJ
+[INFO    main                 ]     Net energy (inference only):  1.410665 mJ  |  per-point: 0.005665 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 25/50] HSIC_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00082707
+[INFO    main                 ]   MAE:        0.02087828
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.5 ms)  |  per-point: 0.010 ms (9.9 us)  |  throughput: 101192.4 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (73 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.697 V  (min 4.608, max 4.716)
+[INFO    main                 ]     Current: avg 360.773 mA  (min 342.900, max 498.500)
+[INFO    main                 ]     Power:   avg 1696.466 mW  (min 1612.000, max 2412.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.139440 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.777867 mJ
+[INFO    main                 ]     Net energy (inference only):  1.361572 mJ  |  per-point: 0.005468 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 26/50] IEX_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00069830
+[INFO    main                 ]   MAE:        0.02015269
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.5 ms)  |  per-point: 0.010 ms (9.9 us)  |  throughput: 101469.9 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (75 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.691 V  (min 4.580, max 4.720)
+[INFO    main                 ]     Current: avg 365.832 mA  (min 343.700, max 518.400)
+[INFO    main                 ]     Power:   avg 1713.200 mW  (min 1606.000, max 2370.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.170236 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.770270 mJ
+[INFO    main                 ]     Net energy (inference only):  1.399967 mJ  |  per-point: 0.005622 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 27/50] IRM_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00080449
+[INFO    main                 ]   MAE:        0.02188586
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.4 ms)  |  per-point: 0.010 ms (9.8 us)  |  throughput: 101745.6 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (74 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.695 V  (min 4.592, max 4.716)
+[INFO    main                 ]     Current: avg 363.135 mA  (min 344.000, max 504.300)
+[INFO    main                 ]     Power:   avg 1701.270 mW  (min 1616.000, max 2314.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.096108 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.762762 mJ
+[INFO    main                 ]     Net energy (inference only):  1.333345 mJ  |  per-point: 0.005355 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 28/50] IVZ_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00161009
+[INFO    main                 ]   MAE:        0.03114985
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.5 ms)  |  per-point: 0.010 ms (9.8 us)  |  throughput: 101607.8 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (74 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.693 V  (min 4.572, max 4.716)
+[INFO    main                 ]     Current: avg 365.081 mA  (min 341.600, max 504.300)
+[INFO    main                 ]     Power:   avg 1712.378 mW  (min 1606.000, max 2224.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.184177 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.766510 mJ
+[INFO    main                 ]     Net energy (inference only):  1.417667 mJ  |  per-point: 0.005693 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 29/50] JBHT_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00106362
+[INFO    main                 ]   MAE:        0.02454106
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.4 ms)  |  per-point: 0.010 ms (9.8 us)  |  throughput: 101680.8 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (74 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.719 V  (min 4.612, max 4.740)
+[INFO    main                 ]     Current: avg 333.892 mA  (min 231.900, max 463.100)
+[INFO    main                 ]     Power:   avg 1569.649 mW  (min 1110.000, max 2134.000)
+[INFO    main                 ]     Gross energy (integral P dt):  3.858096 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.764524 mJ
+[INFO    main                 ]     Net energy (inference only):  1.093573 mJ  |  per-point: 0.004392 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 30/50] JKHY_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00115448
+[INFO    main                 ]   MAE:        0.02301528
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.5 ms)  |  per-point: 0.010 ms (9.8 us)  |  throughput: 101550.2 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (75 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.716 V  (min 4.604, max 4.740)
+[INFO    main                 ]     Current: avg 334.413 mA  (min 315.700, max 447.500)
+[INFO    main                 ]     Power:   avg 1573.893 mW  (min 1488.000, max 2074.000)
+[INFO    main                 ]     Gross energy (integral P dt):  3.837717 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.768080 mJ
+[INFO    main                 ]     Net energy (inference only):  1.069637 mJ  |  per-point: 0.004296 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 31/50] KIM_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00126691
+[INFO    main                 ]   MAE:        0.02703346
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.5 ms)  |  per-point: 0.010 ms (9.9 us)  |  throughput: 101429.8 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (74 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.720 V  (min 4.628, max 4.740)
+[INFO    main                 ]     Current: avg 334.169 mA  (min 269.000, max 448.300)
+[INFO    main                 ]     Power:   avg 1573.865 mW  (min 1288.000, max 2080.000)
+[INFO    main                 ]     Gross energy (integral P dt):  3.872289 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.771365 mJ
+[INFO    main                 ]     Net energy (inference only):  1.100924 mJ  |  per-point: 0.004421 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 32/50] KMB_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00036719
+[INFO    main                 ]   MAE:        0.01437368
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.5 ms)  |  per-point: 0.010 ms (9.9 us)  |  throughput: 101252.0 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (74 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.716 V  (min 4.580, max 4.740)
+[INFO    main                 ]     Current: avg 337.686 mA  (min 316.700, max 449.200)
+[INFO    main                 ]     Power:   avg 1588.216 mW  (min 1498.000, max 2078.000)
+[INFO    main                 ]     Gross energy (integral P dt):  3.877878 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.776230 mJ
+[INFO    main                 ]     Net energy (inference only):  1.101648 mJ  |  per-point: 0.004424 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 33/50] KMX_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00284204
+[INFO    main                 ]   MAE:        0.03784531
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.4 ms)  |  per-point: 0.010 ms (9.8 us)  |  throughput: 101878.8 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (74 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.717 V  (min 4.636, max 4.740)
+[INFO    main                 ]     Current: avg 335.714 mA  (min 316.600, max 469.300)
+[INFO    main                 ]     Power:   avg 1578.649 mW  (min 1494.000, max 2166.000)
+[INFO    main                 ]     Gross energy (integral P dt):  3.800780 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.759150 mJ
+[INFO    main                 ]     Net energy (inference only):  1.041630 mJ  |  per-point: 0.004183 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 34/50] LH_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00057004
+[INFO    main                 ]   MAE:        0.01790390
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.5 ms)  |  per-point: 0.010 ms (10.0 us)  |  throughput: 100005.2 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (76 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.710 V  (min 4.584, max 4.736)
+[INFO    main                 ]     Current: avg 346.724 mA  (min 315.200, max 494.300)
+[INFO    main                 ]     Power:   avg 1624.763 mW  (min 1484.000, max 2288.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.044161 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.810843 mJ
+[INFO    main                 ]     Net energy (inference only):  1.233318 mJ  |  per-point: 0.004953 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 35/50] LNT_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00064955
+[INFO    main                 ]   MAE:        0.01944157
+[INFO    main                 ]   Inference (100 reps, avg):  0.003 s (2.5 ms)  |  per-point: 0.010 ms (10.1 us)  |  throughput: 99081.2 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (74 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.706 V  (min 4.600, max 4.740)
+[INFO    main                 ]     Current: avg 350.738 mA  (min 317.100, max 553.800)
+[INFO    main                 ]     Power:   avg 1647.000 mW  (min 1498.000, max 2542.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.162314 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.003 s): 2.837056 mJ
+[INFO    main                 ]     Net energy (inference only):  1.325258 mJ  |  per-point: 0.005322 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 36/50] MHK_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00207117
+[INFO    main                 ]   MAE:        0.03399489
+[INFO    main                 ]   Inference (100 reps, avg):  0.003 s (2.5 ms)  |  per-point: 0.010 ms (10.1 us)  |  throughput: 99229.7 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (72 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.710 V  (min 4.608, max 4.740)
+[INFO    main                 ]     Current: avg 342.264 mA  (min 315.100, max 487.500)
+[INFO    main                 ]     Power:   avg 1610.139 mW  (min 1488.000, max 2218.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.039422 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.003 s): 2.832811 mJ
+[INFO    main                 ]     Net energy (inference only):  1.206610 mJ  |  per-point: 0.004846 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 37/50] NDSN_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00098130
+[INFO    main                 ]   MAE:        0.02062129
+[INFO    main                 ]   Inference (100 reps, avg):  0.003 s (2.5 ms)  |  per-point: 0.010 ms (10.1 us)  |  throughput: 98698.3 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (76 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.708 V  (min 4.588, max 4.744)
+[INFO    main                 ]     Current: avg 346.937 mA  (min 315.300, max 498.600)
+[INFO    main                 ]     Power:   avg 1627.921 mW  (min 1490.000, max 2300.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.097819 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.003 s): 2.848063 mJ
+[INFO    main                 ]     Net energy (inference only):  1.249756 mJ  |  per-point: 0.005019 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 38/50] NTRS_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00172432
+[INFO    main                 ]   MAE:        0.02809240
+[INFO    main                 ]   Inference (100 reps, avg):  0.003 s (2.5 ms)  |  per-point: 0.010 ms (10.0 us)  |  throughput: 99582.5 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (73 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.713 V  (min 4.608, max 4.740)
+[INFO    main                 ]     Current: avg 341.616 mA  (min 255.400, max 535.900)
+[INFO    main                 ]     Power:   avg 1607.151 mW  (min 1222.000, max 2452.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.078349 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.003 s): 2.822775 mJ
+[INFO    main                 ]     Net energy (inference only):  1.255574 mJ  |  per-point: 0.005042 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 39/50] NVR_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00086781
+[INFO    main                 ]   MAE:        0.02211448
+[INFO    main                 ]   Inference (100 reps, avg):  0.003 s (2.5 ms)  |  per-point: 0.010 ms (10.1 us)  |  throughput: 99317.5 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (76 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.710 V  (min 4.612, max 4.736)
+[INFO    main                 ]     Current: avg 347.225 mA  (min 314.700, max 479.500)
+[INFO    main                 ]     Power:   avg 1630.368 mW  (min 1484.000, max 2198.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.071035 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.003 s): 2.830305 mJ
+[INFO    main                 ]     Net energy (inference only):  1.240730 mJ  |  per-point: 0.004983 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 40/50] PKG_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00098033
+[INFO    main                 ]   MAE:        0.02073975
+[INFO    main                 ]   Inference (100 reps, avg):  0.003 s (2.5 ms)  |  per-point: 0.010 ms (10.1 us)  |  throughput: 99263.7 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (72 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.710 V  (min 4.596, max 4.740)
+[INFO    main                 ]     Current: avg 342.935 mA  (min 315.900, max 500.700)
+[INFO    main                 ]     Power:   avg 1613.861 mW  (min 1488.000, max 2310.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.054253 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.003 s): 2.831841 mJ
+[INFO    main                 ]     Net energy (inference only):  1.222413 mJ  |  per-point: 0.004909 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 41/50] PODD_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00251171
+[INFO    main                 ]   MAE:        0.03548362
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.5 ms)  |  per-point: 0.010 ms (10.0 us)  |  throughput: 100057.1 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (75 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.709 V  (min 4.600, max 4.736)
+[INFO    main                 ]     Current: avg 346.753 mA  (min 316.700, max 474.400)
+[INFO    main                 ]     Power:   avg 1627.973 mW  (min 1494.000, max 2180.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.003142 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.809387 mJ
+[INFO    main                 ]     Net energy (inference only):  1.193756 mJ  |  per-point: 0.004794 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 42/50] REG_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00085617
+[INFO    main                 ]   MAE:        0.02256704
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.5 ms)  |  per-point: 0.010 ms (10.0 us)  |  throughput: 99726.1 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (76 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.708 V  (min 4.588, max 4.740)
+[INFO    main                 ]     Current: avg 349.638 mA  (min 317.000, max 481.300)
+[INFO    main                 ]     Power:   avg 1639.921 mW  (min 1498.000, max 2228.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.083445 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.818711 mJ
+[INFO    main                 ]     Net energy (inference only):  1.264734 mJ  |  per-point: 0.005079 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 43/50] RHI_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00113595
+[INFO    main                 ]   MAE:        0.02547062
+[INFO    main                 ]   Inference (100 reps, avg):  0.003 s (2.5 ms)  |  per-point: 0.010 ms (10.1 us)  |  throughput: 99385.7 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (74 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.712 V  (min 4.596, max 4.740)
+[INFO    main                 ]     Current: avg 339.828 mA  (min 231.100, max 440.900)
+[INFO    main                 ]     Power:   avg 1604.027 mW  (min 1108.000, max 2170.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.054771 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.003 s): 2.828364 mJ
+[INFO    main                 ]     Net energy (inference only):  1.226407 mJ  |  per-point: 0.004925 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 44/50] STLD_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00220659
+[INFO    main                 ]   MAE:        0.03378162
+[INFO    main                 ]   Inference (100 reps, avg):  0.003 s (2.5 ms)  |  per-point: 0.010 ms (10.1 us)  |  throughput: 98904.1 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (76 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.707 V  (min 4.540, max 4.736)
+[INFO    main                 ]     Current: avg 347.699 mA  (min 229.900, max 469.500)
+[INFO    main                 ]     Power:   avg 1632.000 mW  (min 1102.000, max 2146.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.111610 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.003 s): 2.842136 mJ
+[INFO    main                 ]     Net energy (inference only):  1.269474 mJ  |  per-point: 0.005098 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 45/50] TECH_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00158804
+[INFO    main                 ]   MAE:        0.02979236
+[INFO    main                 ]   Inference (100 reps, avg):  0.003 s (2.5 ms)  |  per-point: 0.010 ms (10.1 us)  |  throughput: 98947.7 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (77 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.708 V  (min 4.540, max 4.740)
+[INFO    main                 ]     Current: avg 344.239 mA  (min 242.600, max 457.200)
+[INFO    main                 ]     Power:   avg 1616.364 mW  (min 1160.000, max 2110.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.071452 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.003 s): 2.840883 mJ
+[INFO    main                 ]     Net energy (inference only):  1.230569 mJ  |  per-point: 0.004942 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 46/50] TFX_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00135350
+[INFO    main                 ]   MAE:        0.02559693
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.5 ms)  |  per-point: 0.010 ms (9.9 us)  |  throughput: 101466.2 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (74 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.718 V  (min 4.640, max 4.740)
+[INFO    main                 ]     Current: avg 334.772 mA  (min 277.100, max 453.300)
+[INFO    main                 ]     Power:   avg 1574.838 mW  (min 1330.000, max 2068.000)
+[INFO    main                 ]     Gross energy (integral P dt):  3.874353 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.770371 mJ
+[INFO    main                 ]     Net energy (inference only):  1.103981 mJ  |  per-point: 0.004434 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 47/50] TRMB_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00153084
+[INFO    main                 ]   MAE:        0.02957053
+[INFO    main                 ]   Inference (100 reps, avg):  0.002 s (2.5 ms)  |  per-point: 0.010 ms (10.0 us)  |  throughput: 99647.0 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (76 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.708 V  (min 4.580, max 4.736)
+[INFO    main                 ]     Current: avg 347.546 mA  (min 305.100, max 501.700)
+[INFO    main                 ]     Power:   avg 1631.500 mW  (min 1462.000, max 2274.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.076669 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.002 s): 2.820947 mJ
+[INFO    main                 ]     Net energy (inference only):  1.255722 mJ  |  per-point: 0.005043 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 48/50] TRV_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00069341
+[INFO    main                 ]   MAE:        0.01925663
+[INFO    main                 ]   Inference (100 reps, avg):  0.003 s (2.5 ms)  |  per-point: 0.010 ms (10.1 us)  |  throughput: 99159.7 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (76 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.704 V  (min 4.556, max 4.736)
+[INFO    main                 ]     Current: avg 348.833 mA  (min 239.400, max 490.000)
+[INFO    main                 ]     Power:   avg 1636.658 mW  (min 1146.000, max 2238.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.128842 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.003 s): 2.834810 mJ
+[INFO    main                 ]     Net energy (inference only):  1.294032 mJ  |  per-point: 0.005197 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 49/50] UHS_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00104007
+[INFO    main                 ]   MAE:        0.02323089
+[INFO    main                 ]   Inference (100 reps, avg):  0.003 s (2.5 ms)  |  per-point: 0.010 ms (10.1 us)  |  throughput: 99384.5 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (76 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.709 V  (min 4.576, max 4.740)
+[INFO    main                 ]     Current: avg 345.112 mA  (min 317.700, max 455.900)
+[INFO    main                 ]     Power:   avg 1620.053 mW  (min 1498.000, max 2098.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.035028 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.003 s): 2.828397 mJ
+[INFO    main                 ]     Net energy (inference only):  1.206631 mJ  |  per-point: 0.004846 mJ
+[INFO    main                 ] ------------------------------------------------------------
+[INFO    main                 ] [File 50/50] WRB_test.csv
+[INFO    main                 ]   Rows:       249
+[INFO    main                 ]   MSE:        0.00076474
+[INFO    main                 ]   MAE:        0.01926985
+[INFO    main                 ]   Inference (100 reps, avg):  0.003 s (2.5 ms)  |  per-point: 0.010 ms (10.1 us)  |  throughput: 99310.4 pts/s
+[INFO    main                 ]   CPU freq:   1000000 kHz (1000 MHz)
+[INFO    main                 ]   INA219 (73 samples @ 1 ms, over 100 reps):
+[INFO    main                 ]     Voltage: avg 4.714 V  (min 4.620, max 4.740)
+[INFO    main                 ]     Current: avg 342.422 mA  (min 315.400, max 451.800)
+[INFO    main                 ]     Power:   avg 1610.192 mW  (min 1488.000, max 2098.000)
+[INFO    main                 ]     Gross energy (integral P dt):  4.061867 mJ
+[INFO    main                 ]     Idle contribution (1128.911 mW x 0.003 s): 2.830508 mJ
+[INFO    main                 ]     Net energy (inference only):  1.231358 mJ  |  per-point: 0.004945 mJ
+[INFO    main                 ] ============================================================
+[INFO    main                 ] OVERALL AVERAGES across 50 files:
+[INFO    main                 ]   Avg MSE:        0.00117345
+[INFO    main                 ]   Avg MAE:        0.02414133
+[INFO    main                 ]   Avg inference:  0.002 s  |  avg per-point: 9.987 us  |  combined throughput: 100131.0 pts/s
+[INFO    main                 ]   Total inference (all files): 0.124 s
+[INFO    main                 ]   Idle baseline:       1128.911 mW
+[INFO    main                 ]   Avg gross power:     1628.827 mW  |  Avg current: 346.700 mA
+[INFO    main                 ]   Total gross energy:  202.263422 mJ  |  avg per file: 4.045268 mJ
+[INFO    main                 ]   Total net energy (idle subtracted):  61.897764 mJ  |  avg per file: 1.237955 mJ  (50/50 files)
+[INFO    main                 ] ============================================================
+[INFO    main                 ] End-to-end pipeline time (all files + write_predictions): 13.191 seconds (13191.0 ms)
+[INFO    main                 ]   Per data point: 1.060 ms
